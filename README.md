@@ -11,7 +11,7 @@ I made a themed restaurant about the anime I love, and the fact that the food al
 
 <h2 style="font-family: grotesk"> Live Page </h2>
 
-Here's the live page : [LIVE](https://kimjacobus.github.io/healthyboy-re/)
+Here's the live page : [LIVE](https://kimjacobus.github.io/healthyboy/)
 
 
 <h2 style="font-family: grotesk">Technologies used</h2>
