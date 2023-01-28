@@ -1,0 +1,360 @@
+
+@media screen and (max-width: 1400px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    h1{
+        font-size: 25px; 
+    }
+
+    h4{
+        font-size: 20px; 
+    }
+
+.ghibli-img {
+position: relative;
+height: 100%;
+width: 100%;
+background-image: url(pictures/ghiblinouillesgif.gif);
+background-size: cover; 
+background-repeat: no-repeat;
+}        
+
+.omelette-img {
+position: relative;
+right: 9rem; 
+height: 100%;
+width: 140%;
+background-image: url(pictures/omelette.gif);
+background-repeat: no-repeat;
+background-size: cover;
+}        
+
+#grey {
+    color: white; 
+    filter:grayscale(100%);
+}
+
+#grey:hover {
+    color: darkred; 
+    filter:grayscale(0%);
+}
+
+#r-grey {
+    filter: grayscale(100%);
+}
+
+#r-grey:hover {
+    filter: grayscale(0%);
+}
+
+
+input::placeholder {
+    font-family: 'terminal';
+  }
+
+
+
+
+.crop {
+    width: 85rem; 
+    height: 35rem; 
+    overflow: hidden; 
+}
+
+#pics {
+    position: relative;
+    left: 4rem;  
+    padding: 1rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;  
+    width: 16rem;
+    height: 19rem; 
+    border-radius: 2px;
+    filter: grayscale(100%);
+}
+
+#pics:hover {
+    position: relative;
+    left: 4rem;  
+    padding: 1rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;  
+    width: 16rem;
+    height: 19rem; 
+    border-radius: 2px;
+    filter: grayscale(0%);
+}
+
+.carousel {
+
+    margin: 0px; 
+    padding: 0px; 
+    width: 74rem;
+    height: 19rem; 
+    border-style: solid; 
+    border-color: lightgrey;
+    border-width: 1px;  
+    border-radius: 1rem; 
+} 
+
+
+
+#city {
+    filter: grayscale(100%);
+    opacity: 70%;
+}
+
+.card {
+    height:25rem;
+}
+
+#shrink-text {
+    font-size: 1px; 
+}
+
+
+
+
+
+
+
+    /* food-titles */
+
+    #food-titles-ponyo {
+        color: darksalmon;
+        position: relative;
+        bottom: 5rem;
+        left: 3.5rem;
+        font-size: 50px;
+    }
+
+    #description-ponyo {
+        position: relative;
+        bottom: 4rem;
+    }
+
+    #food-titles-eva {
+        color: darksalmon;
+        position: relative; 
+        font-size: 50px;
+        left: 2rem;
+        bottom: 5rem;
+    }
+
+    #description-eva {
+        position: relative;
+        bottom: 4rem;
+    }
+
+    #food-titles-bebop {
+        color: darksalmon;
+        position: relative;
+        font-size: 50px;
+        text-align: center; 
+        padding-right: 2rem;
+        bottom: 5rem;  
+    }
+
+    #description-bebop {
+        position: relative;
+        bottom: 2.7rem;
+    }
+
+    #food-titles-chainsaw {
+        color: darksalmon;
+        position: relative;
+        font-size: 47px;
+        text-align: center; 
+        bottom: 5.2rem;
+        right: 1rem;  
+    }
+
+    #description-chainsaw {
+        position: relative;
+        bottom: 4.6rem;
+    }
+
+    #food-titles-tatami {
+        color: darksalmon;
+        position: relative;
+        font-size: 50px;
+        text-align: center; 
+        padding-right: 30rem;
+        bottom: 5.5rem;  
+    }
+
+    #description-tatami {
+        position: relative;
+        bottom: 5rem;
+
+    }
+
+    #food-titles-penguin  {
+        color: darksalmon;
+        position: relative;
+        font-size: 50px;
+        text-align: center; 
+        padding-right: 1rem;
+        bottom: 5.5rem;  
+    }
+
+    #description-penguin {
+        position: relative;
+        bottom: 5rem;
+    }
+
+
+
+
+    /* food pictures  */
+
+    .foodcard {
+        height: 25rem;
+        width: 21rem; 
+    }
+
+    .foodcrop {
+        height: 10rem; 
+        overflow: hidden; 
+    }
+
+
+    #udon-beef {   
+        position: relative;
+        height: 20rem; 
+        width: 22rem;
+    }
+    
+    #chicken-katsu {
+        position: relative;
+        bottom: 4rem;
+        height:25rem; 
+        width:25rem; 
+    }
+    
+    #roasted-ribs {
+        height:17rem; 
+        width:21rem;
+    }
+    
+    #thaitaco {
+        height: 18rem; 
+        width:31rem;
+    }
+    
+    #coated-tofu  {
+        height:26rem; 
+        width: 26rem;
+    }
+    
+    #avocado {
+        height:31rem; 
+        width:26rem; 
+        position: relative; 
+        bottom: 3rem;
+    }
+
+
+    /* text-order  */
+
+    #order-ponyo {
+        position: absolute;
+        bottom: 5rem;
+    }
+    #order-eva {
+        position: absolute;
+        bottom: 5rem;
+    }
+    
+    #order-bebop {
+        position: absolute; 
+        bottom: 5rem; 
+        left: 7.5rem; 
+    }
+    
+    #order-chainsaw {
+        position: absolute; 
+        bottom: 5rem; 
+        left: 7.5rem;
+    }
+    
+    #order-tatami {
+        position: absolute; 
+        bottom: 5rem; 
+        left: 7.5rem; 
+    }
+    
+    #order-penguin {
+        position: absolute; 
+        bottom: 5rem; 
+        left: 7.5rem; 
+    }
+
+
+
+
+
+
+/* text-cities */
+
+
+#text-ost {
+    position: absolute; 
+    bottom: 18rem;
+}
+
+#text-bx {
+    position: absolute; 
+    bottom: 18rem;
+
+}
+
+#text-ghent {
+    position: absolute; 
+    bottom: 18rem;
+
+}
+
+#text-liège {
+    position: absolute; 
+    bottom: 18rem;
+}
+
+
+/* map */
+
+#map {
+    position: relative; 
+    right: 16.9rem; 
+    height: 29rem; 
+}
+
+/* contact-form */
+
+#contact {
+    position: absolute; 
+    right: 14rem; 
+    top: 78rem;
+}
+
+#dropdownMenuButton {
+    position: absolute;
+    right: 5.5rem; 
+}
+
+#kj-logo {
+    height: 8rem; 
+    width: 8rem; 
+    position: relative; 
+    left: 8rem; 
+}
+
+#credits-container {
+}
+
+#textarea {
+    height: 20rem; 
+}
+}

@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family: grotesk;
+    src: url(font/Grotesk.otf);
+}
+
+@font-face {
+    font-family: terminal;
+    src: url(font/terminal-grotesque.ttf);
+}
+
+.grotesk {
+    font-family: grotesk; 
+}
+
+.terminal {
+    font-family: terminal; 
+}
+
+

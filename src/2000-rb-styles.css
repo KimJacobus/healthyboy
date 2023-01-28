@@ -1,0 +1,322 @@
+@media screen and (max-width: 2000px) {
+body{ 
+    height: 450 vh;
+}
+
+
+input::placeholder {
+    font-family: terminal;
+  }
+
+.ghibli-img {
+position: relative;
+height: 100%;
+width: 100%;
+background-image: url(pictures/ghiblinouillesgif.gif);
+background-size: cover; 
+background-repeat: no-repeat;
+}        
+
+.omelette-img {
+position: relative;
+right: 9rem; 
+height: 100%;
+width: 140%;
+background-image: url(pictures/omelette.gif);
+background-repeat: no-repeat;
+background-size: cover;
+}        
+
+#grey {
+    color: darkred; 
+    filter:grayscale(0%);
+}
+
+#grey:hover {
+    color: white; 
+    filter:grayscale(100%);
+}
+
+#r-grey {
+    filter: grayscale(100%);
+}
+
+#r-grey:hover {
+    filter: grayscale(0%);
+}
+
+
+
+.crop {
+    width: 85rem; 
+    height: 35rem; 
+    overflow: hidden; 
+}
+
+#pics {
+    position: relative;
+    left: 4rem;  
+    padding: 1rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;  
+    width: 19rem;
+    height: 19rem; 
+    border-radius: 2px;
+    filter: grayscale(100%);
+}
+
+#pics:hover {
+    position: relative;
+    left: 4rem;  
+    padding: 1rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;  
+    width: 19rem;
+    height: 19rem; 
+    border-radius: 2px;
+    filter: grayscale(0%);
+}
+
+.carousel {
+
+    margin: 0px; 
+    padding: 0px; 
+    width: 85rem;
+    height: 19rem; 
+    border-style: solid; 
+    border-color: lightgrey;
+    border-width: 1px;  
+    border-radius: 1rem; 
+} 
+
+
+
+#city {
+    filter: grayscale(100%);
+    opacity: 70%;
+}
+
+
+
+   /* food-titles */
+    
+
+
+
+
+#food-titles-ponyo {
+}
+
+#description-ponyo {
+
+}
+
+
+#food-titles-eva {
+}
+
+#description-eva {
+}
+
+#food-titles-bebop {
+}
+
+#description-bebop {
+
+}
+
+#food-titles-chainsaw {
+ 
+}
+
+#description-chainsaw {
+
+}
+
+#food-titles-tatami {
+    position: relative;
+    left: 3.7rem;
+  
+}
+
+#description-tatami {
+
+}
+
+#food-titles-penguin  {
+  
+}
+
+#description-penguin {
+
+}
+
+
+/* text-order */
+
+#order-ponyo {
+    position: relative; 
+    bottom: 12rem; 
+    left: 7.5rem;
+}
+
+#order-eva {
+    position: relative;
+    bottom: 14.5rem; 
+    left: 8rem;
+
+}
+
+#order-bebop {
+    position: absolute; 
+    bottom: 8rem; 
+    left: 8rem; 
+}
+
+#order-chainsaw {
+    position: absolute; 
+    bottom: 8rem; 
+    left: 7.5rem;
+}
+
+#order-tatami {
+    position: absolute; 
+    bottom: 8rem; 
+    left: 7.5rem; 
+}
+
+#order-penguin {
+    position: absolute; 
+    bottom: 8rem; 
+    left: 7.5rem; 
+}
+/* food pictures */
+
+
+.foodcard {
+height: 38rem; 
+width: 25rem; 
+overflow: hidden; 
+}
+
+.foodcrop {
+    height: 18rem;
+    overflow: hidden; 
+}
+
+#udon-beef {
+    height:18rem; 
+    width:31rem;
+}
+
+#chicken-katsu {
+    height:20.5rem; 
+    width:31rem; 
+    position: relative; 
+    right: 1.8rem; 
+    bottom: 2.5rem; 
+}
+
+#roasted-ribs {
+    height:29.8rem; 
+    width:31rem;
+}
+
+#thaitaco {
+height: 18rem; 
+width:31rem;
+}
+
+#coated-tofu  {
+height:26rem; 
+width: 26rem;
+}
+
+#avocado {
+    height:31rem; 
+    width:26rem; 
+    position: relative; 
+    bottom: 3rem;
+}
+
+
+
+
+
+
+#contact {
+    position: absolute; 
+    right: 17rem; 
+    top: 78rem;
+
+}
+
+#reason-button {
+    position: relative; 
+    right: 0.3rem;
+}
+
+
+#map {
+    position: relative; 
+    right: 19.9rem; 
+    height: 34rem; 
+}
+
+#kj-logo {
+    height: 8rem; 
+    width: 8rem; 
+    position: relative; 
+    left: 10rem; 
+
+}
+
+    
+#credits-container {
+    position:relative; 
+    bottom: 3rem;
+}
+
+.city {
+    max-width: 18rem; 
+    overflow: hidden;
+}
+
+
+
+#healthyboy {
+    height: 15rem; 
+    width: 17rem; 
+    position: relative; 
+    top: 1rem;
+}
+
+
+/* text-cities */
+
+
+#text-ost {
+    position: absolute; 
+    bottom: 10rem;
+}
+
+#text-bx {
+    position: absolute; 
+    bottom: 10rem;
+
+}
+
+#text-ghent {
+    position: absolute; 
+    bottom: 11rem;
+
+}
+
+#text-liège {
+    position: absolute; 
+    bottom: 11rem;
+}
+
+
+
+}
